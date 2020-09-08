@@ -1,0 +1,103 @@
+﻿  body {
+          font-size: 16px;
+          color: #fff;
+          background-color: #61122f;
+          font-family: 'Oxygen', sans-serif;
+        }
+        #header-nav {
+          background-color: #1f0202;
+          border-radius: 0;
+          border: 0;
+        }
+        .navbar-brand {
+          min-height: 80px;
+        }
+
+        .navbar-brand h1 { /* Restaurant name */
+          font-family: 'Lora', serif;
+          color: #f5d7d6;
+          font-size: 48px;
+          text-transform: uppercase;
+          font-weight: bold;
+          text-shadow: 1px 1px 1px #222;
+          margin-top: 0;
+          margin-bottom: 0;
+          text-align: left;
+          line-height: 40px;
+        }
+
+        .navbar-header button.navbar-toggle {
+            clear: both;
+            margin-bottom: 10px;
+            margin-top: -60px;
+        }
+
+        #nav-list {
+          margin-top: 10px;
+        }
+        #nav-list li {
+          color: #951C49;
+          text-align: center;
+          font-size: 1.8em;
+          background: #E7E7E7;
+        }
+        #nav-list li hr{
+            margin : 0px;
+            border-top: 1px solid #131a21   ;
+        }
+        
+
+        h1 {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 20px;
+            text-align: center;
+        }
+
+        p {
+            margin: 15px;
+            text-align: justify;
+            font-weight: 600;
+        }
+
+        .content {
+            text-align: -webkit-right;
+            border: 1px solid black;
+            background-color: #f1d2d1;
+            height: auto;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            font-family: Helvetica;
+            color: #000000;
+        }
+
+        /* Simple Responsive Framework. */
+        .row {
+            width: 100%;
+        }
+
+        /********** Large devices/Medium devices only **********/
+        @media (min-width: 992px) {
+           
+        }
+
+        /********** Small devices only **********/
+        @media (min-width: 768px) and (max-width: 991px) {
+          
+        }
+         /********** Extra Small devices only **********/
+        @media (max-width: 767px) {
+           #collapsable-nav a {
+            font-size: 1.2em;
+            }
+           #collapsable-nav a span { 
+            font-size: 1em;
+            margin-right: 5px;
+            }
+           
+        }
